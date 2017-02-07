@@ -1,0 +1,21 @@
+{
+    "name": "diego/grepper",
+    "description": "A simple tool to grep specific lines of a textfile.",
+    "require": {
+        "symfony/console": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "diego",
+            "email": "diego@sirdiego.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "bin": ["bin/grepper"],
+    "autoload": {
+        "psr-4": {
+            "Diego\\Grepper\\": "src/Diego/Grepper/"
+        }
+    }
+}
